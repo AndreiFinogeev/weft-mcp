@@ -1,5 +1,7 @@
 # Weft MCP Server
 
+[![AndreiFinogeev/weft-mcp MCP server](https://glama.ai/mcp/servers/AndreiFinogeev/weft-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AndreiFinogeev/weft-mcp)
+
 Drive your [Weft](https://letsweft.com) Scrumban board from any MCP client —
 capture tasks from conversation, move work across Backlog → Todo → Doing →
 Done, and plan time-boxed sprints, just by asking your AI.
