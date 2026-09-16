@@ -11,6 +11,13 @@ teams. One hosted MCP server means Claude, ChatGPT, Cursor, Codex, Gemini
 CLI, Replit, Lovable, Windsurf, Cline, and Zed can all manage the same board
 — no extra plugins needed.
 
+What makes it a board for agents rather than a to-do list with an API: an
+agent **claims** a task with a lease, **reports progress** to keep it, and
+finishes with a **receipt** — artifacts you can check, and what it did not
+do — which you accept or send back from an Inbox, on the web or your phone.
+When it needs a decision only you can make, the question waits for you
+instead of being guessed at.
+
 ## Server
 
 | | |
