@@ -1,0 +1,31 @@
+# This repository describes a server that lives somewhere else, which is
+# exactly how a README starts lying. The catalogue ships from another repo,
+# nothing here changes, and the file goes on promising a number that stopped
+# being true weeks ago — in August 2026 it advertised 24 tools against a live
+# 32, and nothing outside noticed, because outside there was no check.
+#
+# So this runs on a schedule as well as on push: the thing that drifts is the
+# server, and drift arrives on a day when nobody touched this repository.
+name: README matches the live server
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Mondays, 07:00 UTC — a red check waiting on Monday morning rather than
+    # a stale README waiting for someone to happen to read it.
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # No install step and no dependencies: the check is Node stdlib and one
+      # fetch of a public manifest. Nothing to keep up to date here either.
+      - run: node scripts/check-readme.mjs
