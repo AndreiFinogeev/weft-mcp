@@ -2,7 +2,7 @@
 
 [![AndreiFinogeev/weft-mcp MCP server](https://glama.ai/mcp/servers/AndreiFinogeev/weft-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AndreiFinogeev/weft-mcp)
 
-Drive your [Weft](https://letsweft.com) Scrumban board from any MCP client —
+Drive your [Weft](https://letsweft.com/?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen) Scrumban board from any MCP client —
 capture tasks from conversation, move work across Backlog → Todo → Doing →
 Done, and plan time-boxed sprints, just by asking your AI.
 
@@ -21,7 +21,7 @@ CLI, Replit, Lovable, Windsurf, Cline, and Zed can all manage the same board
 | Manifest | [`/.well-known/mcp.json`](https://letsweft.com/.well-known/mcp.json) |
 | Registry | Published in the official MCP Registry as `com.letsweft/weft` (domain-verified namespace) |
 
-A free account takes a minute: [letsweft.com/sign-up](https://letsweft.com/sign-up)
+A free account takes a minute: [letsweft.com/sign-up](https://letsweft.com/sign-up?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen)
 — 50 tasks included.
 
 ## Install
@@ -56,7 +56,7 @@ gemini extensions install https://github.com/AndreiFinogeev/weft-gemini-extensio
 
 **Claude Desktop / Lovable / Windsurf / Cline / Zed / anything else** — add
 `https://letsweft.com/api/mcp` as a remote MCP server (custom connector) and
-complete OAuth. Per-client walkthroughs: [letsweft.com/integrations](https://letsweft.com/integrations).
+complete OAuth. Per-client walkthroughs: [letsweft.com/integrations](https://letsweft.com/integrations?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen).
 
 ## Tools (32)
 
@@ -86,7 +86,7 @@ comes back to whichever client asked.
 
 Destructive tools carry MCP safety annotations; deleting is safe —
 `trash_task` keeps tasks recoverable for 30 days. Full reference:
-[letsweft.com/docs/mcp-tools](https://letsweft.com/docs/mcp-tools).
+[letsweft.com/docs/mcp-tools](https://letsweft.com/docs/mcp-tools?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen).
 
 ## What you can ask
 
@@ -104,6 +104,6 @@ attribution, so the board always shows who (or what) added each card.
 
 ## Support
 
-- Docs: [letsweft.com/docs](https://letsweft.com/docs)
+- Docs: [letsweft.com/docs](https://letsweft.com/docs?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen)
 - Email: support@letsweft.com
-- Privacy: [letsweft.com/privacy](https://letsweft.com/privacy)
+- Privacy: [letsweft.com/privacy](https://letsweft.com/privacy?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen)
