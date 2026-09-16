@@ -1,6 +1,6 @@
 # Weft MCP Server
 
-[![AndreiFinogeev/weft-mcp MCP server](https://glama.ai/mcp/servers/AndreiFinogeev/weft-mcp/badges/score.svg)](https://glama.ai/mcp/servers/AndreiFinogeev/weft-mcp)
+[![Weft MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.letsweft/weft/badges/score.svg)](https://glama.ai/mcp/connectors/com.letsweft/weft)
 
 Drive your [Weft](https://letsweft.com/?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen) Scrumban board from any MCP client —
 capture tasks from conversation, move work across Backlog → Todo → Doing →
