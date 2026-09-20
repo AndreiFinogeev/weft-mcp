@@ -7,9 +7,10 @@ capture tasks from conversation, move work across Backlog → Todo → Doing →
 Done, and plan time-boxed sprints, just by asking your AI.
 
 Weft is an AI-first Scrumban task manager for solo founders and small startup
-teams. One hosted MCP server means Claude, ChatGPT, Cursor, Codex, Gemini
-CLI, Replit, Lovable, Windsurf, Cline, and Zed can all manage the same board
-— no extra plugins needed.
+teams. One hosted MCP server means VS Code, Claude, ChatGPT, Cursor, Copilot
+CLI, JetBrains, Kiro, Codex, Gemini CLI, Warp, goose, Raycast, Perplexity,
+Grok, Le Chat and a dozen more can all manage the same board — no extra
+plugins needed. Twenty-two of them have a copy-paste setup guide.
 
 What makes it a board for agents rather than a to-do list with an API: an
 agent **claims** a task with a lease, **reports progress** to keep it, and
@@ -32,6 +33,19 @@ A free account takes a minute: [letsweft.com/sign-up](https://letsweft.com/sign-
 — 50 tasks included.
 
 ## Install
+
+**VS Code** — add to `.vscode/mcp.json`, or run "MCP: Open User Configuration"
+to have it in every workspace:
+
+```json
+{ "servers": { "weft": { "type": "http", "url": "https://letsweft.com/api/mcp" } } }
+```
+
+Switch Chat to Agent mode and ask for your board; VS Code opens a browser for
+OAuth the first time.
+
+**GitHub Copilot CLI** — run `copilot`, type `/mcp add`, choose HTTP, paste the
+endpoint, leave headers empty, set tools to `*`.
 
 **Claude Code**
 
@@ -61,7 +75,8 @@ codex mcp add weft --transport http --url https://letsweft.com/api/mcp
 gemini extensions install https://github.com/AndreiFinogeev/weft-gemini-extension
 ```
 
-**Claude Desktop / Lovable / Windsurf / Cline / Zed / anything else** — add
+**JetBrains (via Junie) / Kiro / Warp / goose / Raycast / Perplexity / Grok /
+Le Chat / Claude Desktop / Lovable / Windsurf / Cline / Zed / anything else** — add
 `https://letsweft.com/api/mcp` as a remote MCP server (custom connector) and
 complete OAuth. Per-client walkthroughs: [letsweft.com/integrations](https://letsweft.com/integrations?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen).
 
