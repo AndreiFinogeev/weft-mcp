@@ -35,7 +35,7 @@ A free account takes a minute: [letsweft.com/sign-up](https://letsweft.com/sign-
 ## Install
 
 Setting this up from inside an agent (Cline, Cursor, a CLI)? Point it at
-[](./llms-install.md) — the same steps, written for a machine.
+[llms-install.md](./llms-install.md) — the same steps, written for a machine.
 
 **VS Code** — add to `.vscode/mcp.json`, or run "MCP: Open User Configuration"
 to have it in every workspace:
