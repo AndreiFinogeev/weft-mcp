@@ -37,8 +37,12 @@ A free account takes a minute: [letsweft.com/sign-up](https://letsweft.com/sign-
 Setting this up from inside an agent (Cline, Cursor, a CLI)? Point it at
 [llms-install.md](./llms-install.md) — the same steps, written for a machine.
 
-**VS Code** — add to `.vscode/mcp.json`, or run "MCP: Open User Configuration"
-to have it in every workspace:
+**VS Code** — install the
+[Weft extension](https://marketplace.visualstudio.com/items?itemName=letsweft.weft)
+(also on [Open VSX](https://open-vsx.org/extension/letsweft/weft), which is where
+Cursor, Windsurf and VSCodium look) and the server registers itself. Without an
+extension, add to `.vscode/mcp.json`, or run "MCP: Open User Configuration" to
+have it in every workspace:
 
 ```json
 { "servers": { "weft": { "type": "http", "url": "https://letsweft.com/api/mcp" } } }
