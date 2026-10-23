@@ -1,16 +1,17 @@
 # Weft MCP Server
 
 [![Weft MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.letsweft/weft/badges/score.svg)](https://glama.ai/mcp/connectors/com.letsweft/weft)
+[![MCP Badge](https://lobehub.com/badge/mcp/andreifinogeev-weft-mcp)](https://lobehub.com/mcp/andreifinogeev-weft-mcp)
 
-Drive your [Weft](https://letsweft.com/?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen) Scrumban board from any MCP client —
-capture tasks from conversation, move work across Backlog → Todo → Doing →
-Done, and plan time-boxed sprints, just by asking your AI.
+**One board for every AI you use: agents claim tasks and finish with proof you
+accept or return.**
 
-Weft is an AI-first Scrumban task manager for solo founders and small startup
-teams. One hosted MCP server means VS Code, Claude, ChatGPT, Cursor, Copilot
-CLI, JetBrains, Kiro, Codex, Gemini CLI, Warp, goose, Raycast, Perplexity,
-Grok, Le Chat and a dozen more can all manage the same board — no extra
-plugins needed. Twenty-two of them have a copy-paste setup guide.
+[Weft](https://letsweft.com/?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen)
+is a task board for solo founders and small teams who work with AI. One hosted
+MCP server means VS Code, Claude, ChatGPT, Cursor, Copilot CLI, JetBrains,
+Kiro, Codex, Gemini CLI, Warp, goose, Raycast, Perplexity, Grok, Le Chat and a
+dozen more all work from the same board — no extra plugins needed. Thirty-three
+of them have a copy-paste setup guide.
 
 What makes it a board for agents rather than a to-do list with an API: an
 agent **claims** a task with a lease, **reports progress** to keep it, and
@@ -24,13 +25,13 @@ instead of being guessed at.
 | | |
 |---|---|
 | Endpoint | `https://letsweft.com/api/mcp` |
-| Transport | Streamable HTTP (MCP 2025-11-25) |
-| Auth | OAuth 2.1 — Authorization Code + PKCE, dynamic client registration (RFC 7591). No API keys: a browser window opens to sign in with your Weft account on first use. |
+| Transport | Streamable HTTP — MCP 2026-07-28, and 2025 revisions for older clients |
+| Auth | OAuth 2.1 — Authorization Code + PKCE, dynamic client registration (RFC 7591): a browser window opens to sign in with your Weft account on first use. For clients without OAuth (scripts, CI, some CLIs), a personal access token from Settings → Access tokens, sent as `Authorization: Bearer wft_…` — see [access tokens](https://letsweft.com/docs/access-tokens?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen). |
 | Manifest | [`/.well-known/mcp.json`](https://letsweft.com/.well-known/mcp.json) |
 | Registry | Published in the official MCP Registry as `com.letsweft/weft` (domain-verified namespace) |
 
 A free account takes a minute: [letsweft.com/sign-up](https://letsweft.com/sign-up?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen)
-— 50 tasks included.
+— the free plan includes 50 active tasks and 200 tool calls a month.
 
 ## Install
 
