@@ -75,7 +75,7 @@ claude mcp add --transport http weft https://letsweft.com/api/mcp
 **Codex CLI**
 
 ```bash
-codex mcp add weft --transport http --url https://letsweft.com/api/mcp
+codex mcp add weft --url https://letsweft.com/api/mcp
 ```
 
 **Gemini CLI** — official extension:
