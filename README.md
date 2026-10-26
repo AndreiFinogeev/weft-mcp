@@ -2,6 +2,7 @@
 
 [![Weft MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.letsweft/weft/badges/score.svg)](https://glama.ai/mcp/connectors/com.letsweft/weft)
 [![MCP Badge](https://lobehub.com/badge/mcp/andreifinogeev-weft-mcp)](https://lobehub.com/mcp/andreifinogeev-weft-mcp)
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/andreifinogeev/weft-mcp)
 
 **One board for every AI you use: agents claim tasks and finish with proof you
 accept or return.**
