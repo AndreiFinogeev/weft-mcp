@@ -4,8 +4,8 @@
 [![MCP Badge](https://lobehub.com/badge/mcp/andreifinogeev-weft-mcp)](https://lobehub.com/mcp/andreifinogeev-weft-mcp)
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/andreifinogeev/weft-mcp)
 
-**One board for every AI you use: agents claim tasks and finish with proof you
-accept or return.**
+**One board for you and your AI: hand tasks to ChatGPT, Claude, Cursor or Codex
+and get a report back.**
 
 [Weft](https://letsweft.com/?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen)
 is a task board for solo founders and small teams who work with AI. One hosted
@@ -16,8 +16,8 @@ of them have a copy-paste setup guide.
 
 What makes it a board for agents rather than a to-do list with an API: an
 agent **claims** a task with a lease, **reports progress** to keep it, and
-finishes with a **receipt** — artifacts you can check, and what it did not
-do — which you accept or send back from an Inbox, on the web or your phone.
+finishes with a **report** — artifacts you can check, and what it did not
+do — that you see on the board, on the web or your phone.
 When it needs a decision only you can make, the question waits for you
 instead of being guessed at.
 
