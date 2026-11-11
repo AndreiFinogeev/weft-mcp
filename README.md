@@ -37,7 +37,8 @@ A free account takes a minute: [letsweft.com/sign-up](https://letsweft.com/sign-
 ## Install
 
 Setting this up from inside an agent (Cline, Cursor, a CLI)? Point it at
-[llms-install.md](./llms-install.md) — the same steps, written for a machine.
+[llms-install.md](./llms-install.md) (Cline) or
+[letsweft.com/llms-install.md](https://letsweft.com/llms-install.md) (any client) — the same steps, written for a machine.
 
 **VS Code** — install the
 [Weft extension](https://marketplace.visualstudio.com/items?itemName=letsweft.weft)
@@ -84,7 +85,11 @@ codex mcp add weft --url https://letsweft.com/api/mcp
 gemini extensions install https://github.com/AndreiFinogeev/weft-gemini-extension
 ```
 
-**JetBrains (via Junie) / Kiro / Warp / goose / Raycast / Perplexity / Grok /
+**Kiro** — one click:
+
+[![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=weft&config=%7B%22url%22%3A%22https%3A%2F%2Fletsweft.com%2Fapi%2Fmcp%22%7D)
+
+**JetBrains (via Junie) / Warp / goose / Raycast / Perplexity / Grok /
 Le Chat / Claude Desktop / Lovable / Windsurf / Cline / Zed / anything else** — add
 `https://letsweft.com/api/mcp` as a remote MCP server (custom connector) and
 complete OAuth. Per-client walkthroughs: [letsweft.com/integrations](https://letsweft.com/integrations?utm_source=github-weft-mcp&utm_medium=repo&utm_campaign=evergreen).
