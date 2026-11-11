@@ -3,6 +3,7 @@
 [![Weft MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.letsweft/weft/badges/score.svg)](https://glama.ai/mcp/connectors/com.letsweft/weft)
 [![MCP Badge](https://lobehub.com/badge/mcp/andreifinogeev-weft-mcp)](https://lobehub.com/mcp/andreifinogeev-weft-mcp)
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/andreifinogeev/weft-mcp)
+[![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-andreifinogeev-weft-mcp-e4bf52fa/badge.svg)](https://tensorblock.co/mcp/servers/github-andreifinogeev-weft-mcp-e4bf52fa)
 
 **One board for you and your AI: hand tasks to ChatGPT, Claude, Cursor or Codex
 and get a report back.**
