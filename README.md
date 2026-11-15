@@ -5,7 +5,7 @@
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/andreifinogeev/weft-mcp)
 [![Indexed on TensorBlock MCP Index](https://mcp-index.tensorblock.co/v1/servers/github-andreifinogeev-weft-mcp-e4bf52fa/badge.svg)](https://tensorblock.co/mcp/servers/github-andreifinogeev-weft-mcp-e4bf52fa)
 [![Listed on mcprush](https://mcprush.com/badge/weft-mcp/compact.svg)](https://mcprush.com/to/weft-mcp?ref=badge)
-[![Listed on ToolSDK MCP Registry](https://badges.toolsdk.ai/badge/@toolsdk-remote/weft)](https://toolsdk-ai.github.io/toolsdk-mcp-registry/#%40toolsdk-remote%2Fweft)
+[![Listed on ToolSDK MCP Registry](https://badges.toolsdk.ai/badge/@toolsdk-remote/weft)](https://toolsdk-ai.github.io/toolsdk-mcp-registry/#@toolsdk-remote/weft)
 
 **One board for you and your AI: hand tasks to ChatGPT, Claude, Cursor or Codex
 and get a report back.**
